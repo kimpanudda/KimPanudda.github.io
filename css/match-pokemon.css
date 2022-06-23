@@ -70,11 +70,11 @@ img {
 }
 
 .tree {
-    width: auto;
+    width: 200px;
     height: 500px;
     position: relative;
     left: 25px;
-    bottom: -5%;
+    
    
 }
 
