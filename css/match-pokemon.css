@@ -9,7 +9,6 @@
 }
 
 .title-container {
-    /* width: 50%; */
     margin: 0 auto;
     align-content: center;
     display: block;
@@ -36,15 +35,14 @@
     align-items: center;
     justify-content: center;
 
-    /* background: url('/img/grasshill.png');
-    background-size: 100%;
-    background-repeat: no-repeat; */
+
 }
 
 .bggamearea {
     width: 100%;
+    height: 80%;
     z-index: 0;
-    background-size: cover;
+   
 }
 
 
@@ -57,28 +55,25 @@ img {
 
 
 #rightSide {
-    /* display: flex;
-    left: 50%;
-    border-left: 2px solid; 
-    border-color: black; */
     position: relative;
 
 }
 
 #middleLine {
     width: 200px;
-    height: 470px;
+    height: 500px;
     padding: 0px;
     margin: 5px;
     position: absolute;
+    
     
 }
 
 .tree {
     width: auto;
-    height: 470px;
+    height: 500px;
     position: relative;
-    left: -15px;
+    left: 25px;
     bottom: -5%;
    
 }
@@ -113,8 +108,8 @@ p {
     font-size: 20px;
 }
 
-body {
-    
+html, body {
+    min-height: 100%;
     background-image: linear-gradient(#c9f6ff, #97ebf4, #7ae5f5, #65ddef, #35d6ed); 
     margin: 0;
 }
@@ -170,8 +165,6 @@ body {
 
 .score-board {
     width: 1024px;
-    /* padding: 0px 10px 0px 10px;
-    margin: 10px 10px 0px 10px; */
     display: flex;
     align-items: center;
     justify-content: center;
@@ -274,7 +267,6 @@ body {
 .mymodal-dialog {
     background-color: #3b4cca;
     color: white;
-    /* font-size: 30px; */
     width: 500px;
     height: auto;
     margin: 0 auto;
