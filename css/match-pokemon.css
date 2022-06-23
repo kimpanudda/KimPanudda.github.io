@@ -1,0 +1,307 @@
+.title-container img {
+    margin: 0 auto;
+    align-content: center;
+    display: block;
+}
+
+.container {
+    width: 100%;
+}
+
+.title-container {
+    /* width: 50%; */
+    margin: 0 auto;
+    align-content: center;
+    display: block;
+}
+
+.title-text {
+    padding: 0px;
+    margin-bottom: 100px;
+    display: block;
+    align-items: center;
+    justify-content: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.game-area {
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    /* background: url('/img/grasshill.png');
+    background-size: 100%;
+    background-repeat: no-repeat; */
+}
+
+.bggamearea {
+    width: 100%;
+    padding-top: 10px;
+    z-index: 0;
+}
+
+
+img {
+    position: absolute;
+    width: 80px;
+     z-index: 999;
+
+}
+
+
+#rightSide {
+    /* display: flex;
+    left: 50%;
+    border-left: 2px solid; 
+    border-color: black; */
+    position: relative;
+
+}
+
+#middleLine {
+    width: 200px;
+    height: 470px;
+    padding: 0px;
+    margin: 5px;
+    position: absolute;
+    /* background-image: url('/img/Exeggutor.png');  */
+}
+
+.tree {
+    width: auto;
+    height: 470px;
+    position: relative;
+    left: -15px;
+    bottom: -5%;
+    /* z-index: 0; */
+}
+
+
+
+
+
+#leftSide {
+    position: relative;
+    width: 500px;
+    height: 500px;
+    padding: 0px;
+    margin: 0px 100px 0 100px
+}
+
+
+h3 {
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 24px;
+    font-weight: bold;
+    padding-top: 10px;
+    text-shadow: 1px 1px black;
+}
+
+p {
+    text-align: center;
+    margin-bottom: 30px;
+    margin-top: -20px;
+    color: Black;
+    font-size: 20px;
+}
+
+body {
+    
+    background-image: linear-gradient(#c9f6ff, #97ebf4, #7ae5f5, #65ddef, #35d6ed); 
+    margin: 0;
+}
+
+
+
+.game-container {
+    width: 1400px;
+    padding: 20px;
+    margin: 20px;
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 16px;
+
+
+
+}
+
+.game-buttons button {
+
+    display: inline-block;
+    align-items: center;
+    padding: 10px 25px;
+    border-radius: 10px;
+    border-color: black;
+    margin: 0 auto;
+    font-size: 18px;
+    margin: 10px 4px 10px 4px;
+
+}
+
+.game-buttons {
+    align-items: center;
+    margin: 0 auto;
+    display: table;
+    padding-bottom: 20px;
+}
+
+
+.score-container {
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.score-board {
+    width: 1024px;
+    /* padding: 0px 10px 0px 10px;
+    margin: 10px 10px 0px 10px; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.score-board-left1 {
+    width: 235px;
+    padding: 0px 10px 0px 0px;
+    margin: 0px 10px 0px 0px;
+    background-color: #f29100;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.score-board-left2 {
+    width: 235px;
+    padding: 0px 10px 0px 0px;
+    margin: 0px 10px 0px 0px;
+    background-color: #3b4cca;
+    opacity: 90%;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.score-board-right {
+    width: 470px;
+    padding: 0px 10px 0px 0px;
+    margin: 0px 10px 0px 0px;
+    background-color: #f00;
+    opacity: 80%;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.score {
+    padding: 10px;
+    margin: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 2em;
+    color: white;
+    text-shadow: 1px 1px black;
+}
+
+.highscore {
+    color: black;
+    padding: 10px; 
+    margin: 10px; 
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 2em;
+    color: white;
+    text-shadow: 1px 1px black;
+}
+
+.timer {
+    color: black;
+    padding: 10px;
+    margin: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 2em;
+    color: white;
+    text-shadow: 1px 1px black;
+}
+
+#newHighScore {
+    font-size: smaller;
+    text-shadow: none;
+    color: black;
+    margin: 0px;
+    padding: 0px;
+}
+
+#showHighScore {
+    font-size: smaller;
+    text-shadow: none;
+    color: black;
+    margin: 0px;
+    padding: 0px;
+}
+
+ #myModal, #gameover-modal {
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 9999;
+    display: none;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    outline: 0;
+    
+    background-color: rgba(0,0,0,.7)
+}
+
+.mymodal-dialog {
+    background-color: #3b4cca;
+    color: white;
+    /* font-size: 30px; */
+    width: 500px;
+    height: auto;
+    margin: 0 auto;
+    padding: 20px;
+    position: relative;
+    top: 100px;
+    border-radius: 20px;
+} 
+
+.mymodal-header {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 50px;
+}
+
+.mymodal-body p {
+    color: white;
+
+}
+
+.form-group {
+    font-size: 20px;
+}
+
+.close {
+    color: white;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+  }
