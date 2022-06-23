@@ -173,7 +173,7 @@ restart.addEventListener('click', newGame);
 function newGame() {
     stopTimer();
     event.stopPropagation();
-    document.getElementById('seconds').innerHTML = '00:00';
+    // document.getElementById('seconds').innerHTML = '00:00';
     startTimer(15);
     document.getElementById('score').innerHTML = 0;
     numberOfPokemon = parseInt(difficulty);
@@ -198,13 +198,14 @@ function checkIfHighScore() {
 }
 
 // timer functions and countdown
-function startTimer() {
+function startTimer(newTime) {
+    counter = newTime;
     document.getElementById('seconds').innerHTML = '00:00';
     gameTimer = setInterval(function () {
         document.getElementById('seconds').innerHTML = timeConverter(counter);
         console.log(counter);
         counter--;
-        if (counter === -1) {
+        if (counter <= -1) {
             clearInterval(gameTimer);
             document.getElementById('seconds').innerHTML = '00:00';
             gameOver();
