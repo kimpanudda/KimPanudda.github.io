@@ -94,7 +94,7 @@ img {
 h3 {
     color: white;
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 24px;
+    font-size: 1.5em;
     font-weight: bold;
     padding-top: 10px;
     text-shadow: 1px 1px black;
@@ -105,7 +105,7 @@ p {
     margin-bottom: 30px;
     margin-top: -20px;
     color: Black;
-    font-size: 20px;
+    font-size: 1.25em;
 }
 
 html, body {
@@ -182,7 +182,7 @@ html, body {
 }
 
 .score-board-left2 {
-    width: 235px;
+    width: 235px; 
     padding: 0px 10px 0px 0px;
     margin: 0px 10px 0px 0px;
     background-color: #3b4cca;
@@ -194,7 +194,7 @@ html, body {
 }
 
 .score-board-right {
-    width: 470px;
+    width: 470px; 
     padding: 0px 10px 0px 0px;
     margin: 0px 10px 0px 0px;
     background-color: #f00;
@@ -297,3 +297,4 @@ html, body {
     font-size: 28px;
     font-weight: bold;
   }
+
